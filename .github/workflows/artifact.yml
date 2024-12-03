@@ -26,7 +26,7 @@ jobs:
       - name: download Archive text file
         uses: actions/download-artifact@v4
         with:
-          name: hello-artificat
+          name: hello-artifact
           path: artifacts
       
       - name: display content
